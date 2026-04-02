@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Contacts</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="../index.html">Main Page</a>
+          </li>
+          <li class="menu-item">
+            <a href="articles.html">Articles</a>
+          </li>
+          <li class="menu-item">
+            <a href="gallery.html">Gallery</a>
+          </li>
+          <li class="menu-item">
+            <a href="contacts.html">Contacts</a>
+          </li>
+          <li class="menu-item">
+            <a href="about.html">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1 class="header">Contacts</h1>
+    <fieldset>
+      <legend>Official resources</legend>
+
+      <div class="official-resourses">
+        <ul class="official-resourses-list">
+          <li class="official-resourses-item">
+            <a
+              class="official-site-ref"
+              href="https://astral-projection.com"
+              target="_blank"
+              >Official site</a
+            >
+          </li>
+          <li class="official-resourses-item">
+            <a
+              class="official-facebook-ref"
+              href="https://www.facebook.com/astralprojectionofficial"
+              target="_blank"
+              >Facebook</a
+            >
+          </li>
+          <li class="official-resourses-item">
+            <a
+              class="official-instagram-ref"
+              href="https://www.instagram.com/astralprojection/"
+              target="_blank"
+              >Instagram</a
+            >
+          </li>
+          <li class="official-resourses-item">
+            <a
+              class="official-youtube-ref"
+              href="https://www.youtube.com/user/astralprojection1"
+              target="_blank"
+              >Youtube</a
+            >
+          </li>
+          <li class="official-resourses-item">
+            <a
+              class="official-bandcamp-ref"
+              href="https://astralprojection.bandcamp.com/music"
+              target="_blank"
+              >Bandcamp</a
+            >
+          </li>
+        </ul>
+      </div>
+    </fieldset>
+
+    <form>
+      <fieldset>
+        <legend>Your Contacts</legend>
+
+        <div class="user-contacts">
+          <div class="user-name">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <br />
+
+          <div class="user-email">
+            <label for="email">Your email</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <br />
+
+          <div class="user-sex">
+            <input type="radio" name="gender" value="male" /> Man
+            <input type="radio" name="gender" value="female" /> Woman
+          </div>
+          <br />
+
+          <div class="user-birthday">
+            <label for="name">Your birthday</label>
+            <input type="date" name="birthday" />
+          </div>
+          <br />
+
+          <div class="user-message">
+            <label for="message"></label>
+            <textarea
+              placeholder="Type comment"
+              id="message"
+              name="message"
+              rows="5"
+              cols="100"
+            ></textarea>
+          </div>
+          <br />
+
+          <input type="submit" value="OK" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

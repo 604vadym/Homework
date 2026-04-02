@@ -1,0 +1,136 @@
+.photo {
+  display: block;
+  margin: 15px auto;
+}
+
+.header,
+.figcaption {
+  max-width: max-content;
+  margin: 0px auto;
+}
+
+.article-bio-main,
+.article-bio-about,
+.article-articles {
+  text-align: justify;
+  margin: 0px auto;
+}
+
+.article-bio-main {
+  max-width: 350px;
+}
+
+.article-bio-about,
+.article-articles {
+  max-width: 500px;
+}
+
+.menu,
+.albums-anchors,
+.official-resourses-list {
+  list-style-type: none;
+}
+
+.albums-anchors {
+  list-style-type: none;
+  margin: 15px 0px 0px 0px;
+  padding: 0;
+}
+
+.menu {
+  display: inline-block;
+  margin: 0px auto;
+}
+
+nav,
+article,
+.anchors {
+  text-align: center;
+}
+
+.official-resourses-item,
+.albums-anchors-item {
+  padding-bottom: 7px;
+}
+
+.menu-item {
+  float: left;
+  padding: 5px;
+}
+
+.menu {
+  padding-left: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+p,
+article {
+  clear: both;
+}
+
+pre {
+  font-family: "Times New Roman", Times, serif;
+}
+
+blockquote {
+  color: blue;
+}
+
+.btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  font-size: 18px;
+  color: white;
+  background-color: red;
+  border: none;
+  opacity: 0.7;
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+.albums-menu {
+  clear: both;
+  padding-top: 15px;
+}
+
+#trust-in-trance,
+#dancing-galaxy,
+#another-world,
+#amen {
+  margin-bottom: 20px;
+}
+
+#trust-in-trance {
+  margin-top: 20px;
+}
+
+#dancing-galaxy,
+#another-world,
+#amen {
+  margin-top: 35px;
+}
+
+.trust-in-trance-header {
+  margin: 20px auto 0px;
+}
+
+.photos-header {
+  margin: 30px auto 0px;
+}
+
+.albums-header {
+  margin: 10px auto 0px;
+}
+
+section a,
+figure a {
+  display: block;
+  width: max-content;
+  margin: 0 auto;
+}

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>CSS selectors</title>
+  </head>
+  <body>
+    <!-- Цифри переносить Prettier - sorry -->
+
+    <p>Застосовується до всіх тегів p, вага 0, 0, 0, 1</p>
+
+    <p class="blue-background">
+      Застосовується до всіх элементів з класом blue-background, вага 0, 0, 1, 1
+    </p>
+
+    <p class="test-background">
+      Тестовий p це вже клас без стиля, тому він чорний, бо це p
+    </p>
+
+    <p id="red-background">
+      Застосовується до всіх элементів з id red-background, вага 0, 1, 0, 1
+    </p>
+
+    <p title="Зелений параграф">
+      Застосовується до всіх элементів з атрибутом title="Зелений параграф",
+      вага 0, 0, 1, 1
+    </p>
+
+    <div>
+      <p>
+        Застосовується до всіх тегів p, вкладених у div на всіх рівнях
+        вкладеності, вага 0, 0, 0, 2
+      </p>
+      <section>
+        <p>застосовується тут також</p>
+      </section>
+    </div>
+
+    <div>
+      <article>
+        Застосовується до всіх тегів artcile, вкладених у div на першому рівні
+        вкладеності, але не застосовується до більш вкладених, вага 0, 0, 0, 2
+      </article>
+      <section>
+        <article>тут вже не застосовується хоча він також article</article>
+      </section>
+    </div>
+
+    <p>
+      Застосовується до першого елемента з тегом section після p, але не
+      застосовується до інших section, вага 0, 0, 0, 2
+    </p>
+    <section>Цей буде фіолетовий бо він перший сусід p</section>
+    <article>
+      Цей article без background бо він не перший сусід и він не section
+    </article>
+    <section>
+      Цей section без background хоча він і section, але він не перший сусід
+    </section>
+    <section>
+      Цей section без background хоча він і section, але він не перший сусід
+    </section>
+
+    <p>
+      Застосовується до всіх елементів з тегом aside на тому ж рівні
+      вкладеності, що і p, вага 0, 0, 0, 2
+    </p>
+    <aside>Цей буде червоний бо він aside</aside>
+    <nav>Цей article без background бо він не aside</nav>
+    <aside>Цей буде червоний бо він aside</aside>
+    <aside>Цей буде червоний бо він aside</aside>
+
+    <footer id="footer-id">
+      Цей переможе і на нього не вплине каскадування, тому що у id більша
+      специфічність, ніж у класа, вага 0, 1, 0, 1
+    </footer>
+    <footer class="footer-class">
+      Цей програв, бо він class і він менш специфічен ніж id, вага 0, 0, 1, 1
+    </footer>
+
+    <footer>
+      <aside>
+        <p title="Параграф" class="p-class">
+          Цей p переможе, бо він перший дочірній, а не сусідній та він не тільки
+          з атрибутом, але ще з класом, вага 0, 0, 2, 3
+        </p>
+        <p title="Параграф">
+          Цей програв, бо він з атрибутом, але без класа - менша вага, вага 0,
+          0, 1, 3
+        </p>
+      </aside>
+      <nav>
+        <aside>
+          <p title="Параграф"></p>
+          <p class="p-class" title="Параграф"></p>
+        </aside>
+      </nav>
+    </footer>
+  </body>
+</html>

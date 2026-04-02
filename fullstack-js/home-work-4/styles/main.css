@@ -1,0 +1,53 @@
+body {
+  margin: 30px;
+  color: rgb(255, 255, 255);
+  background-color: chartreuse;
+}
+
+p {
+  background-color: black;
+}
+
+p.blue-background {
+  background-color: blue;
+}
+
+p#red-background {
+  background-color: red;
+}
+
+p[title="Зелений параграф"] {
+  background-color: green;
+}
+
+div p {
+  background-color: aqua;
+}
+
+div > article {
+  background-color: chocolate;
+}
+
+p + section {
+  background-color: blueviolet;
+}
+
+p ~ aside {
+  background-color: crimson;
+}
+
+footer#footer-id {
+  background-color: blue;
+}
+
+footer.footer-class {
+  background-color: brown;
+}
+
+footer > aside p[title="Параграф"].p-class {
+  background-color: cornflowerblue;
+}
+
+footer + aside p[title="Параграф"] {
+  background-color: deeppink;
+}

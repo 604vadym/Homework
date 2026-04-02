@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(131, 239, 110, 1) 0%,
+    rgba(84, 163, 238, 1) 50%,
+    rgba(114, 229, 52, 1) 51%,
+    rgba(30, 105, 222, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.body-contacts {
+  background: linear-gradient(
+    135deg,
+    rgba(131, 239, 110, 1) 0%,
+    rgba(84, 163, 238, 1) 50%,
+    rgba(114, 229, 52, 1) 51%,
+    rgba(30, 105, 222, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.photo,
+.photo-group {
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  margin: 0px auto;
+  font-size: 0;
+}
+
+.figure-group {
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+}
+
+.photo {
+  max-width: 100%;
+  display: block;
+  margin: 15px auto;
+}
+
+.header,
+.figcaption {
+  max-width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.article-bio-main,
+.article-bio-about,
+.article-articles {
+  text-align: justify;
+  margin: 0px auto;
+}
+
+.article-bio-main {
+  max-width: 350px;
+}
+
+.article-bio-about,
+.article-articles {
+  max-width: 500px;
+}
+
+.menu,
+.albums-anchors,
+.official-resourses-list {
+  list-style-type: none;
+}
+
+.albums-anchors {
+  list-style-type: none;
+  margin: 15px 0px 0px 0px;
+  padding: 0;
+}
+
+.menu {
+  display: block;
+  padding: 0;
+  text-align: center;
+}
+
+nav,
+article,
+.anchors {
+  text-align: center;
+}
+
+.official-resourses-item,
+.albums-anchors-item {
+  padding-bottom: 7px;
+}
+
+.menu-item {
+  display: inline-block;
+  float: none;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+p,
+article {
+  clear: both;
+}
+
+pre {
+  font-family: "Times New Roman", Times, serif;
+}
+
+blockquote {
+  color: blue;
+}
+
+.btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  font-size: 18px;
+  color: white;
+  background-color: red;
+  border: none;
+  opacity: 0.7;
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+.albums-menu {
+  clear: both;
+  padding-top: 15px;
+}
+
+#trust-in-trance,
+#dancing-galaxy,
+#another-world,
+#amen {
+  margin-bottom: 20px;
+}
+
+#trust-in-trance {
+  margin-top: 20px;
+}
+
+#dancing-galaxy,
+#another-world,
+#amen {
+  margin-top: 35px;
+}
+
+.trust-in-trance-header {
+  margin: 20px auto 0px;
+}
+
+.photos-header {
+  margin: 30px auto 0px;
+}
+
+.albums-header {
+  margin: 10px auto 0px;
+}
+
+section a,
+figure a {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.form-contacts,
+.fieldset-resources {
+  text-align: center;
+  width: 50%;
+  margin: 0px auto;
+}
+
+textarea {
+  resize: none;
+  max-width: 300px;
+}
