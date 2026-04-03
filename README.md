@@ -1,7 +1,7 @@
 # My Portfolio
 
-Hello! I am Vadym - a student and a future fullstack / web developer
-This is my personal portfolio website, hosted on https://604vadym.github.io/
+Hello! I am Vadym - a student and a future Fullstack / Web developer.
+This is my personal portfolio website, hosted on [https://604vadym.github.io](https://604vadym.github.io).
 
 ## Project Description
 
@@ -12,12 +12,12 @@ source code of all my projects. Projects are homework for Hillel for now.
 
 ## Key Features
 
-- Astral Projection site on HTML5 and CSS3
-- Other few homework sites on HTML5 and CSS3
+- Astral Projection website built with HTML5 and CSS3
+- Other few homework sites built with HTML5 and CSS3
 
 ## Highlights & Advantages
 
-To be edited in future.
+To be edited in the future.
 
 ## Tech Stack
 
@@ -26,7 +26,7 @@ To be edited in future.
 
 ## Screenshots / Demo
 
-To be edited in future.
+To be edited in the future.
 
 ## Quick Start
 
