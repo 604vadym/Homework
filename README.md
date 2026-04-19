@@ -1,7 +1,8 @@
 # My Portfolio
 
-Hello! I am Vadym - a student and a future Fullstack / Web developer.
-This is my personal portfolio website, hosted on [https://604vadym.github.io](https://604vadym.github.io).
+Hello! I am Vadym — a student and a future full-stack web developer. I was also a C/C++ developer in the past.
+This is my personal portfolio website, hosted on [GitHub Pages](https://604vadym.github.io).
+See also my C/C++/C# repository, hosted on [Bitbucket](https://bitbucket.org/vadym_rogachko/repos/src/master/).
 
 ## Project Description
 
