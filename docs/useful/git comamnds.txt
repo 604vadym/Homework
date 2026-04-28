@@ -35,7 +35,7 @@ git config --system                    системная конфигураци
 git config --global                    пользовательская конфигурация
 git config                             проектная кофигурация
 
-git config --global core.editor "<editor name> --wait" изменить редактор кода для git и настроить запуск с ожиданием закрытия окна (чтобы git не закрывал editor сразу)
+git config --global core.editor "'<editor name>' --wait" изменить редактор кода для git и настроить запуск с ожиданием закрытия окна (чтобы git не закрывал editor сразу)
 git config --global --unset core.editor удалить редактор кода для git (вернуть системный)
 
 git config --global merge.tool <tool name> установить mergetool для git
