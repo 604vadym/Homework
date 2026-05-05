@@ -3,7 +3,7 @@
   margin: 0px;
 }
 
-div.block-float-left {
+.block-float-left {
   width: 150px;
   height: 150px;
   border: 1px solid black;
@@ -11,14 +11,14 @@ div.block-float-left {
   float: left;
 }
 
-div.block {
+.block {
   width: 150px;
   height: 150px;
   border: 1px solid black;
   background-color: yellow;
 }
 
-div.inline-block {
+.inline-block {
   width: 150px;
   height: 150px;
   margin-right: 25px;
@@ -27,14 +27,14 @@ div.inline-block {
   display: inline-block;
 }
 
-div.inline {
+.inline {
   display: inline;
   background-color: yellow;
   padding: 0px 75px;
   margin: 7px;
 }
 
-div.block-float-right {
+.block-float-right {
   width: 150px;
   height: 150px;
   border: 1px solid black;
@@ -42,22 +42,22 @@ div.block-float-right {
   float: right;
 }
 
-img.img-float-left {
+.img-float-left {
   float: left;
 }
 
-img.img-float-right {
+.img-float-right {
   float: right;
 }
 
-div.clearfix {
+.clearfix {
   clear: both;
 }
 
-div.clearfix-clear-left {
+.clearfix-clear-left {
   clear: left;
 }
 
-div.clearfix-clear-right {
+.clearfix-clear-right {
   clear: right;
 }

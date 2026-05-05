@@ -3,7 +3,7 @@
   margin: 0px;
 }
 
-div.block-overflow-visible {
+.block-overflow-visible {
   width: 150px;
   height: 200px;
   margin-left: 25px;
@@ -15,7 +15,7 @@ div.block-overflow-visible {
   vertical-align: top;
 }
 
-div.block-overflow-hidden {
+.block-overflow-hidden {
   width: 150px;
   height: 200px;
   margin-left: 25px;
@@ -28,7 +28,7 @@ div.block-overflow-hidden {
   overflow: hidden;
 }
 
-div.block-overflow-scroll {
+.block-overflow-scroll {
   width: 150px;
   height: 200px;
   margin-left: 25px;
@@ -41,7 +41,7 @@ div.block-overflow-scroll {
   overflow: scroll;
 }
 
-div.block-overflow-auto {
+.block-overflow-auto {
   width: 150px;
   height: 200px;
   margin-left: 25px;

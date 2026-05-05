@@ -1,8 +1,8 @@
-div.container-font-null {
+.container-font-null {
   font-size: 0;
 }
 
-div.block-element {
+.block-element {
   width: 150px;
   height: 150px;
   border: 1px solid black;
@@ -10,11 +10,11 @@ div.block-element {
   color: yellow;
 }
 
-span.inline-element {
+.inline-element {
   background-color: blue;
   color: white;
 }
 
-span.big-inline-element {
+.big-inline-element {
   background-color: yellow;
 }
